@@ -1,0 +1,3 @@
+# Accessing a Non-Existent Property in C#
+
+This example demonstrates a common C# error: attempting to access a property that hasn't been defined in the class. The code attempts to print the value of `MyNonExistentProperty` within the `MyMethod` function. Since this property doesn't exist, the compiler throws a `CS0103` error. This is a compilation error, meaning the code won't even run until it's fixed.
